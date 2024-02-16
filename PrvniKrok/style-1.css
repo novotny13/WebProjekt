@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand';
+  }
+  
+  .top-bar {
+    background-color: black;
+    height: 30px; 
+    width: 100%;
+  }
+  
+  .navbare {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  
+  }
+  
+  .containert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .navbare a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    
+  }
+  h1{
+      font-size: 50px;
+  }
+  .navbare a:hover {
+    text-decoration: underline;
+    color: rgb(105, 105, 105);
+  }
+
+  .custom-button a {
+    color: black;
+    text-decoration: none; 
+  }
+  .custom-button a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+  }
+  .left-link, .right-link {
+    flex: 1;
+  }
+  
+  .center-title {
+    flex: 2;
+    text-align: center;
+  }
+  .background-image {
+    width: auto;
+    height: 500px;
+    background-image: url('backg.png'); 
+    background-size: cover;
+    background-position: center;
+  }
+  .pruh{
+  background-color: rgba(217, 217, 217, 0.7);
+  height: 100%;
+  width: 250px;
+  margin-left:10% ;
+  }
+  .vyprodej{
+  max-width: 207px;
+  font-size: 25px;
+  margin-top: 80%;
+  }
+  .custom-button {
+      width: 130px;
+      height: 50px;
+      background-color: rgb(223, 41, 41);
+      color: white;
+      text-align: center;
+      line-height: 50px; 
+      border: none;
+      cursor: pointer;
+      font-size: 25px;
+    }
+    
+
+.spacer {
+    height: 50px;
+  }
+  
+  .content {
+    padding: 20px 0;
+  }
+  
+  
+  .small-text {
+    font-size: 9px;
+  }
+  .grid-item {
+    text-align: center;
+  }
+  
