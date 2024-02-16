@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link href='style.css' rel='stylesheet'>
+
+</head>
+<body>
+
+<div class="top-bar"></div>
+<nav class="navbare">
+<div class="container content">
+    <div class="container row justify-content-center align-items-center">
+      <div class="text-center">
+        <div class="">
+            <span class=""><h1>Pan</h1></span>
+        </div>
+        <div class="">
+            <a class="nav-link" href="mainstranka.html">LuminEyE</a>
+        </div>
+      </div>
+</nav>
+
+
+<div class="mt-5"></div>
+
+<div class="container content">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="grid-item">
+        <img src="obrazek1.jpg" alt="Obrázek 1" class="img-fluid">
+        <p class="small-text">text cena</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="grid-item">
+        <img src="obrazek2.jpg" alt="Obrázek 2" class="img-fluid">
+        <p class="small-text">text cena</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="grid-item">
+        <img src="obrazek3.jpg" alt="Obrázek 3" class="img-fluid">
+        <p class="small-text">text cena</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="grid-item">
+          <img src="obrazek1.jpg" alt="Obrázek 1" class="img-fluid">
+          <p class="small-text">text cena</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="grid-item">
+          <img src="obrazek2.jpg" alt="Obrázek 2" class="img-fluid">
+          <p class="small-text">text cena</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="grid-item">
+          <img src="obrazek3.jpg" alt="Obrázek 3" class="img-fluid">
+          <p class="small-text">text cena</p>
+        </div>
+      </div>
+      
+      
+     
+  </div>
+</div>
+
+</body>
+</html>
