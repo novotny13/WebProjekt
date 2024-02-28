@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MainPage</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+<link href='style.css' rel='stylesheet'>
+<script>
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<style>
+ 
+</style>
+</head>
+</head>
+<body>
+
+<div class="top-bar"></div>
+<nav class="navbare">
+    <div class="d-flex justify-content-around">
+      
+        <div class="p-2" id="odkaz"><a href="Pan.html">Pan</a></div>
+        
+        <div class="p-2"><h1>LuminEyE</h1></div>
+        <div class="p-2" id="odkaz"><a href="Pani.html">Pani</a></div>
+        <div class="dropdown p-2">
+          <button onclick="myFunction()" class="dropbtn">Kategorie</button>
+          <div id="myDropdown" class="dropdown-content text-center">
+            <a href="Pan.html">Pan</a>
+            <a href="Pani.html">Paní</a>
+           
+          </div>
+        </div>
+     </div>
+</nav>
+
+<div class="background-image">
+    <div class="pruh "> 
+        <div class="containert row justify-content-center align-items-center">
+           
+                <div class="vyprodej text-center "><p>Letni damsky vyprodej</p></div>
+                    <div class="d-flex align-self-start">
+                        <div class="custom-button  text-center "><a href="Pani.html">Klikni zde</a></div>  
+                    </div>
+                    
+            
+    </div>
+    </div>
+    </div>
+</div >
+<div></div>
+<div class="main_container">
+ 
+    <div class="col-md-4 main_content">
+      <div class="item_main">
+        <img src="Bryle_main.png" alt="Obrázek 1" class="img-fluid">
+        <div>
+        <p class="text-left">Aktualní cena:</p>
+        <p class=" text-left cena_text">956 kč</p>
+      </div>
+      </div>
+    </div>
+    <div class="col-md-4 main_content">
+      <div class="item_main">
+        <img src="Bryle_main.png" alt="Obrázek 1" class="img-fluid">
+        <div>
+        <p class="text-left">Aktualní cena:</p>
+        <p class=" text-left cena_text">956 kč</p>
+      </div>
+      </div>
+    </div>
+    <div class="col-md-4 main_content">
+      <div class="item_main">
+        <img src="Bryle_main.png" alt="Obrázek 1" class="img-fluid">
+        <div>
+        <p class="text-left">Aktualní cena:</p>
+        <p class=" text-left cena_text">956 kč</p>
+      </div>
+      </div>
+    </div>  
+      </div>
+      <div class="main_container">
+ 
+        <div class="col-md-4 main_content">
+          <div class="item_main">
+            <img src="Bryle_main.png" alt="Obrázek 1" class="img-fluid">
+            <div>
+            <p class="text-left">Aktualní cena:</p>
+            <p class=" text-left cena_text">956 kč</p>
+          </div>
+          </div>
+        </div>
+        <div class="col-md-4 main_content">
+          <div class="item_main">
+            <img src="Bryle_main.png" alt="Obrázek 1" class="img-fluid">
+            <div>
+            <p class="text-left">Aktualní cena:</p>
+            <p class=" text-left cena_text">956 kč</p>
+          </div>
+          </div>
+        </div>
+        <div class="col-md-4 main_content">
+          <div class="item_main">
+            <img src="Bryle_main.png" alt="Obrázek 1" class="img-fluid">
+            <div>
+            <p class="text-left">Aktualní cena:</p>
+            <p class=" text-left cena_text">956 kč</p>
+          </div>
+          </div>
+        </div> 
+          </div>
+          <footer class="text-center">
+<p>Zaregistrujte se do našeho LuminEyE klubu a získejte 15% slevu na nákup nad 1000kč !!</p>
+<h5>Váš LuminEyE nejlepší obchod se slunečnímy brýlemi</h5>          
+</footer>
+
+</body>
+</html>
